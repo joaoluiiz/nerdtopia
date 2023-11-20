@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+        <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>		
+    
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+    
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>  
+    
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDEFCcI31HcUmWJ5Ew-UDlYPdx8wYzLQf4",
+            authDomain: "servidores2ano.firebaseapp.com",
+            databaseURL: "https://servidores2ano-default-rtdb.firebaseio.com",
+            projectId: "servidores2ano",
+            storageBucket: "servidores2ano.appspot.com",
+            messagingSenderId: "740076497144",
+            appId: "1:740076497144:web:47f2cb65db82b4ebe6730d",
+            measurementId: "G-X0V6H3GQQD"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="consulta.js"></script>
+        <link rel="stylesheet" href="nerd.css">
+
+    </head>
+
+    <body>
+        <table id="tbAlunos">
+            <tr>
+                <th></th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>IRA</th>
+                <th>Matrícula</th>
+            </tr>
+        </table>
+    </body>
+</html>

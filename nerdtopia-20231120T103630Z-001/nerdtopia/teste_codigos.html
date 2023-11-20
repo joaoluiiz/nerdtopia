@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>		
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>  
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBSUU6wvSxs0FkGsO4BGVCBAMXLRd-JPcc",
+        authDomain: "nerdtopia-dc82d.firebaseapp.com",
+        databaseURL: "https://nerdtopia-dc82d-default-rtdb.firebaseio.com",
+        projectId: "nerdtopia-dc82d",
+        storageBucket: "nerdtopia-dc82d.appspot.com",
+        messagingSenderId: "52790166336",
+        appId: "1:52790166336:web:10f4b45811ef197ad070a5",
+        measurementId: "G-QNJMG1NR5G"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="consultanerd.js"></script>
+    <link rel="stylesheet" href="nerd.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NERDTOPIA</title>
+    <link rel="stylesheet" href="nerd.css">
+</head>
+<body>
+
+    <header class="logo">
+        <h1>NERDTOPIA</h1>
+        <p>Sua loja de itens geek favorita</p>
+    </header>
+
+    <nav class="cab">
+        <a href="file:///C:/Users/Aluno/Downloads/teste_codigos.html">Home</a>
+        <a href="https://www.fantoy.com.br/">figuras de ação</a>
+        <a href="https://nerdstore.com.br/categoria/vestuario/camisetas/">Camisetas</a>
+        <a href="https://mangaschan.net/">mangas</a>
+      <!------  <a href="#contact">Contato</a> ---->
+    </nav>
+
+    <section class="home">
+        <h2>Bem-vindo à NERD TOPIA!</h2>
+        <p>Encontre os melhores itens geek aqui.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Nossos Produtos</h2>
+        <ul>
+            <li>Camisetas Geek</li>
+            <li>Figuras de Ação</li>
+            <li>mangas</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Estamos aqui para ajudar. Envie-nos um e-mail: contato@geekstore.com</p>
+    </section>
+
+    <footer class="copy">
+        <p>&copy; 2023 NERD TOPIA. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
